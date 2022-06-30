@@ -2,6 +2,8 @@
 // ViewController.swift
 //
 
+#if os(iOS)
+
 import UIKit
 import PropertyWrappers
 
@@ -37,3 +39,5 @@ open class ViewController: UIViewController {
         // Empty.
     }
 }
+
+#endif
